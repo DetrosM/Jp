@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jose Victorino - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="profile.jpg" alt="Jose Victorino">
+                <h2>Jose Victorino</h2>
+                <p>2nd Year IT Student</p>
+            </div>
+            <div class="contact">
+                <p><strong>📞</strong> (+63) 9284650259</p>
+                <p><strong>📧</strong> josevictorino003@gmail.com</p>
+                <p><strong>🏫</strong> Mapua University</p>
+            </div>
+            <div class="social-icons">
+                <a href="#">🔗</a>
+                <a href="#">📷</a>
+                <a href="#">💼</a>
+            </div>
+        </aside>
+ 
+        <main class="content">
+            <section class="about">
+                <h1>About Me</h1>
+                <div class="about-content">
+                    <img src="about.jpg" alt="Jose Victorino">
+                    <p>Hello, I am Jose Victorino aiming to be a future Web Developer. I enjoy programming, especially building websites...</p>
+                </div>
+            </section>
+
+            <section class="skills">
+                <h2>Skills</h2>
+                <div class="skills-container">
+                    <div class="skill">
+                        <p>HTML5</p>
+                        <div class="bar"><div class="progress" style="width: 80%;"></div></div>
+                    </div>
+                    <div class="skill">
+                        <p>CSS</p>
+                        <div class="bar"><div class="progress" style="width: 40%;"></div></div>
+                    </div>
+                    <div class="skill">
+                        <p>JavaScript</p>
+                        <div class="bar"><div class="progress" style="width: 20%;"></div></div>
+                    </div>
+                    <div class="skill">
+                        <p>Video Editing</p>
+                        <div class="bar"><div class="progress" style="width: 60%;"></div></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
+
+html
+JP
+JP Ferrer
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.sidebar {
+    background: #1e1e1e;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.contact p {
+    font-size: 14px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.about img {
+    width: 150px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.skills-container {
+    margin-top: 10px;
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+
+.bar {
+    width: 100%;
+    background: #333;
+    height: 8px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.progress {
+    height: 100%;
+    background: #3498db;
+    border-radius: 5px;
+}
+
+index
